@@ -11,7 +11,7 @@ Run the same `BandCheck.exe` on one of the endpoint (a server, a client or other
 ### Quickest mode
 
 On the first endpoint
-> Bandcheck.exe -s
+> BandCheck.exe -s
 
 On the second endpoint (replace IPV4 address with first endpoint address or name if resolved)
-> Bandcheck.exe -t 192.168.1.1
+> BandCheck.exe -t 192.168.1.1
