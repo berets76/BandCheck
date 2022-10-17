@@ -5,6 +5,7 @@ namespace BandCheck
 {
     internal class Constants
     {
+        internal const string APP_NAME = "BandCheck";
         internal const int TCP_PORT = 4455;
         internal const long MB_TO_SEND = 100;
     }
