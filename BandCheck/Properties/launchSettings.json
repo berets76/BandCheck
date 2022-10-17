@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BandCheck": {
+      "commandName": "Project",
+      "commandLineArgs": "-s"
+    }
+  }
+}
