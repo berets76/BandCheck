@@ -23,7 +23,7 @@ if (NetworkHelper.IsNetworkConnected())
             Console.WriteLine($"Q - Close BandCheck");
             Console.WriteLine($"{Environment.NewLine}");
             var selection = Console.ReadLine();
-            switch (selection.ToLower())
+            switch (selection?.ToLower())
             {
                 case "s":
                     new Server().RunAsServer(addresses);

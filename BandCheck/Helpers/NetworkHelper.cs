@@ -18,7 +18,7 @@ internal class NetworkHelper
         }
     }
 
-    internal static List<string> GetAllAddresses(bool OnlyIPV4)
+    internal static List<string>? GetAllAddresses(bool OnlyIPV4)
     {
         try
         {

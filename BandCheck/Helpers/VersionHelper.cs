@@ -10,7 +10,7 @@ namespace BandCheck.Helpers
         internal static string GetVersion()
         {
             var version = Assembly.GetExecutingAssembly().GetName().Version;
-            return $"{version.Major}.{version.Minor} Build {version.Build}.{version.Revision}";
+            return $"{version?.Major}.{version?.Minor} Build {version?.Build}.{version?.Revision}";
         }
     }
 }
